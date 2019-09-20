@@ -1,0 +1,39 @@
+.allAreas{
+  height: 70px;
+  line-height: 70px;
+  background: #F4F4F4;
+  color: #AAAAAA;
+  font-size: 30px;
+  padding-left: 5%;
+}
+.CurentCity{
+  color: #303440;
+  font-weight: 500;
+  font-size: 30px;
+  height: 80px;
+  width: 90%;
+  line-height: 80px;
+  margin: 0 auto;
+}
+.EachCityName{
+  .CityAll{
+    background: #F4F4F4;
+    color: #AAAAAA;
+    font-size: 28px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 5%;
+  }
+  .StoreCitys{
+    .CityChild{
+      border-bottom: 1px solid #CDC6C6;
+      color: #303440;
+      font-weight: 500;
+      font-size: 30px;
+      height: 90px;
+      width: 90%;
+      line-height: 90px;
+      margin: 0 auto;
+    }
+  }
+}

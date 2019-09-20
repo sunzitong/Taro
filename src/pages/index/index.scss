@@ -1,0 +1,149 @@
+.ChoiceCitys{
+  height: 100px;
+  line-height: 100px;
+  padding: 0px 32px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .StoreMainBox{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: relative;
+    .Locatioon{
+      position: absolute;
+      left: 13px;
+      width: 23px;
+      height: 28px;
+      top: 50%;
+      margin-top: -13px;
+      z-index: 44;
+    }
+    .obtainHouses{
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      display: flex;
+      .obtainCommon{
+        flex: 1.1;
+        text-align: center;
+      }
+      .obtainCommonYellow{
+        flex: 1.1;
+        text-align: center;
+        color: #F3A015;
+      }
+      .obtainther{
+        flex: 1;
+        text-align: center;
+      }
+      .obtaintherNew{
+        flex: 1;
+        padding-left: 56px;
+        position: relative;
+        .choiceArea{
+          position: absolute;
+          width: 16px;
+          height: 14px;
+          right: 64px;
+          top: 44px;
+        }
+      }
+      .obtaintherNewYeallow{
+        padding: 0px 56px 0px 24px;
+        position: relative;
+        color: #F3A015;
+        .choiceArea{
+          position: absolute;
+          width: 16px;
+          height: 14px;
+          right: 24px;
+          top: 44px;
+        }
+      }
+      .obtaintherPrice{
+        flex: 1;
+        text-align: center;
+        position: relative;
+        padding-right: 14px;
+        .choiceAreaBlack{
+          position: absolute;
+          width: 8px;
+          height: 24px;
+          right: 40px;
+          top: 38px;
+        }
+        .choiceAreaYellow{
+          position: absolute;
+          width: 8px;
+          height: 24px;
+          right: 24px;
+          top: 38px;
+        }
+      }
+    }
+  }
+}
+.ChiceCityid{
+  position: absolute;
+  top: 560px;
+  width: 100%;
+  height: 370px;
+  background: #66889B;
+  border-radius: 16px;
+  z-index: 67;
+  color: #534F4E;
+  .CityIdLeft{
+    width: 30%;
+    padding-top: 14px;
+    float:left;
+    background: #EEEEEE;
+    height: 370px;
+    overflow: auto;
+    .EachChoice{
+      text-align: center;
+      font-size: 30px;
+      height: 80px;
+      line-height: 80px;
+    }
+    .activeEachChoice{
+      text-align: center;
+      font-size: 30px;
+      height: 80px;
+      line-height: 80px;
+      color: #F3A015
+    }
+  }
+  .CityIdRight{
+    width: 65%;
+    float: right;
+    padding-top: 14px;
+    padding-left: 5%;
+    height: 370px;
+    overflow: auto;
+    background: #FFFFFF;
+    .EachChoice{
+      text-align: left;
+      font-size: 30px;
+      height: 80px;
+      line-height: 80px;
+    }
+    .activeEachChoice{
+      text-align: left;
+      font-size: 30px;
+      height: 80px;
+      line-height: 80px;
+      color: #F3A015;
+    }
+  }
+}
+.boxShadow{
+  position: fixed;
+  top: 560px;
+  width: 100%;
+  background: #000000;
+  opacity: 0.6;
+  z-index: 23;
+  height: 600px;
+  display: none;
+}

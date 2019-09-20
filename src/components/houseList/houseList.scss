@@ -1,0 +1,68 @@
+.HoseList{
+  font-weight: 600;
+  font-size: 20px;
+  color: #E9545E;
+  height: 120px;
+  background: #cccccc;
+}
+.EachHouse{
+  padding: 0px 32px 32px 40px;
+  height: 240px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  .StoreHouse{
+    flex: 1;
+    .houseImg{
+      height: 100%;
+      width: 100%;
+      border-radius: 12px;
+    }
+  }
+  .Manjian{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    height: 24px;
+    font-size: 14px;
+    padding: 2px 4px;
+    width: 44px;
+    .content{
+      position: absolute;
+      left: 4px;
+      top: 0px;
+      z-index: 4;
+      font-size: 18px;
+    }
+    .manjianImg{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+  }
+  .StoreDetail{
+    flex: 1.2;
+    padding: 20px 10px 0px 20px;
+    .HouseName{
+      font-size: 30px;
+      font-weight: 600;
+      color: #373937;
+      letter-spacing: 1px;
+      margin-bottom: 30px;
+    }
+    .HouseArea{
+      font-size: 24px;
+      color: #969996;
+      margin-bottom: 30px;
+    }
+    .HousePrice{
+      font-size: 28px;
+      color: #F39800;
+    }
+  }
+}

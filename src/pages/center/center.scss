@@ -1,0 +1,56 @@
+.StoreTopReload{
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  height: 250px;
+  .UserDefaultImg{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    margin-top: -60px;
+    left: 0px;
+    border-radius: 50%
+  }
+  .UserToLoad{
+    height: 40px;
+    line-height: 40px;
+    font-size: 34px;
+    font-weight: 500;
+    position: absolute;
+    left: 140px;
+    color: #43433F;
+    top: 50%;
+    padding: 0px 40px;
+    margin-top: -20px;
+  }
+}
+.btnCommon{
+  width: 86%;
+  padding: 0 2%;
+  height: 100px;
+  line-height: 100px;
+  text-align: left;
+  font-size: 30px;
+  color: #43433F;
+  border-bottom: 1px solid #C4C6C9;
+  position: relative;
+  margin: 0 auto;
+  .UserDefaultImg{
+    width: 26px;
+    height: 30px;
+    position: absolute;
+    right: 2%;
+    top: 40px;
+  }
+  .kefuPhone{
+    font-size: 28px;
+    color: #485EBB;
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    right: 2%;
+  }
+}
